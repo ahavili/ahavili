@@ -1,0 +1,52 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="48" y1="24" x2="1152" y2="296" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#102A43"/>
+      <stop offset="0.5" stop-color="#1C7C7D"/>
+      <stop offset="1" stop-color="#F28F3B"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0B1622" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="#10202E" stop-opacity="0.86"/>
+    </linearGradient>
+    <linearGradient id="line" x1="217" y1="86" x2="959" y2="243" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7BDFF2"/>
+      <stop offset="0.5" stop-color="#B2F7EF"/>
+      <stop offset="1" stop-color="#F7D794"/>
+    </linearGradient>
+    <filter id="shadow" x="120" y="46" width="960" height="228" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#08111A" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" rx="28" fill="url(#bg)"/>
+  <circle cx="1096" cy="58" r="120" fill="#FFD6A5" fill-opacity="0.09"/>
+  <circle cx="128" cy="292" r="116" fill="#7BDFF2" fill-opacity="0.08"/>
+  <path d="M0 244C134 209.333 239.333 204.667 316 230C392.667 255.333 477.667 269.333 571 272C664.333 274.667 742.667 257.333 806 220C869.333 182.667 936 170 1006 182C1076 194 1140.67 225.667 1200 277V320H0V244Z" fill="#08111A" fill-opacity="0.16"/>
+
+  <g filter="url(#shadow)">
+    <rect x="144" y="70" width="912" height="180" rx="20" fill="url(#card)"/>
+    <rect x="144.75" y="70.75" width="910.5" height="178.5" rx="19.25" stroke="white" stroke-opacity="0.16" stroke-width="1.5"/>
+  </g>
+
+  <circle cx="180" cy="102" r="6" fill="#FF6B6B"/>
+  <circle cx="202" cy="102" r="6" fill="#FFD166"/>
+  <circle cx="224" cy="102" r="6" fill="#06D6A0"/>
+
+  <text x="184" y="146" fill="#EAF7FF" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="700" letter-spacing="0.4">ahavili</text>
+  <text x="184" y="180" fill="#C7D7E5" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="500">profile README / public surface / engineered presence</text>
+
+  <text x="184" y="220" fill="#8FB8D8" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="600">$ build --clean --human --interesting</text>
+
+  <rect x="728" y="104" width="276" height="88" rx="14" fill="#0A1723" fill-opacity="0.64"/>
+  <rect x="728.75" y="104.75" width="274.5" height="86.5" rx="13.25" stroke="white" stroke-opacity="0.12" stroke-width="1.5"/>
+  <text x="754" y="134" fill="#8FB8D8" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700">signals</text>
+  <text x="754" y="159" fill="#F4FBFF" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="600">ship smaller</text>
+  <text x="754" y="181" fill="#F4FBFF" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="600">design sharper</text>
+
+  <path d="M760 221C789 210.333 818.667 204 849 202C879.333 200 904.667 201.667 925 207C945.333 212.333 972 224.333 1005 243" stroke="url(#line)" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="760" cy="221" r="5" fill="#7BDFF2"/>
+  <circle cx="850" cy="202" r="5" fill="#B2F7EF"/>
+  <circle cx="925" cy="207" r="5" fill="#D7F9F1"/>
+  <circle cx="1005" cy="243" r="5" fill="#F7D794"/>
+</svg>
